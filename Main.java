@@ -1,4 +1,3 @@
-# Projetjenkins
 mkdir -p /tmp/siham/
 rm -rf /tmp/siham/*
 echo '
