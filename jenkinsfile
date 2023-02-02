@@ -7,15 +7,5 @@ node {
     }
     stage('Run') {
         sh label: '', script: 'java Main'
-    }
-node {
-    stage('Clone') {
-        git 'https://github.com/Sih20/Projetjenkins.git'
-    }       
-    stage('Build') {
-        sh label: '', script: 'javac Main.java'
-    }
-    stage('Run') {
-        sh label: '', script: 'java Main'
-    }    
+    }   
 }
